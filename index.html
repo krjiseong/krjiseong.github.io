@@ -1,129 +1,13 @@
-﻿---
-layout: none
----
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <title>Jiseong LEE</title>
 </head>
 <body>
-  {% capture name_md %}{% include_relative _content/name.md %}{% endcapture %}
-  {% assign name_text = name_md | markdownify | strip_html | strip_newlines %}
-
-  <table summary="Table for page layout." id="tlayout">
-    <tr valign="top">
-      <td id="layout-menu">
-        <div class="menu-category">{{ name_text }}</div>
-        <div class="menu-item"><a href="#home" class="current">Home</a></div>
-        <div class="menu-item"><a href="#biography">Biography</a></div>
-        <div class="menu-category">Study</div>
-        <div class="menu-item"><a href="#topics">Topics</a></div>
-        <div class="menu-item"><a href="#analysis">Analysis</a></div>
-        <div class="menu-category">Previous class</div>
-        <div class="menu-item"><a href="#ase2065">ASE2065 Propulsion and combustion</a></div>
-        <div class="menu-item"><a href="#ase2130">ASE2130 Numerical Analysis</a></div>
-        <div class="menu-item"><a href="#ase3132">ASE3132 Low speed dynamics</a></div>
-        <div class="menu-item"><a href="#ase2910">ASE2910 Linear algebra</a></div>
-        <div class="menu-item"><a href="#gfe7018">GFE7018 Basic of Datascience</a></div>
-        <div class="menu-item"><a href="#phy1902">PHY1902 Physics 2</a></div>
-        <div class="menu-category">In Progress class</div>
-        <div class="menu-item"><a href="#inprogress">In progress</a></div>
-      </td>
-      <td id="layout-content">
-        <div class="page" id="home">
-          <div id="toptitle">
-            <h1>{{ name_text }}</h1>
-          </div>
-
-          <table class="imgtable">
-            <tr>
-              <td>
-                {% capture photo_md %}{% include_relative _content/photo.md %}{% endcapture %}
-                {{ photo_md | markdownify }}
-              </td>
-              <td align="left">
-                {% capture profile_md %}{% include_relative _content/profile.md %}{% endcapture %}
-                {{ profile_md | markdownify }}
-              </td>
-            </tr>
-          </table>
-
-          <div class="home-intro">
-            {% capture home_md %}{% include_relative _content/home.md %}{% endcapture %}
-            {{ home_md | markdownify }}
-          </div>
-        </div>
-
-        <div class="page" id="biography">
-          <h2>Biography</h2>
-          {% capture biography_md %}{% include_relative _content/biography.md %}{% endcapture %}
-          {{ biography_md | markdownify }}
-        </div>
-
-        <div class="page" id="topics">
-          <h2>Topics</h2>
-          {% capture topics_md %}{% include_relative _content/topics.md %}{% endcapture %}
-          {{ topics_md | markdownify }}
-        </div>
-
-        <div class="page" id="analysis">
-          <h2>Analysis</h2>
-          {% capture analysis_md %}{% include_relative _content/analysis.md %}{% endcapture %}
-          {{ analysis_md | markdownify }}
-        </div>
-
-        <div class="page" id="ase2065">
-          <h2>ASE2065 Propulsion and combustion</h2>
-          {% capture ase2065_md %}{% include_relative _content/ase2065.md %}{% endcapture %}
-          {{ ase2065_md | markdownify }}
-        </div>
-
-        <div class="page" id="ase2130">
-          <h2>ASE2130 Numerical Analysis</h2>
-          {% capture ase2130_md %}{% include_relative _content/ase2130.md %}{% endcapture %}
-          {{ ase2130_md | markdownify }}
-        </div>
-
-        <div class="page" id="ase3132">
-          <h2>ASE3132 Low speed dynamics</h2>
-          {% capture ase3132_md %}{% include_relative _content/ase3132.md %}{% endcapture %}
-          {{ ase3132_md | markdownify }}
-        </div>
-
-        <div class="page" id="ase2910">
-          <h2>ASE2910 Linear algebra</h2>
-          {% capture ase2910_md %}{% include_relative _content/ase2910.md %}{% endcapture %}
-          {{ ase2910_md | markdownify }}
-        </div>
-
-        <div class="page" id="gfe7018">
-          <h2>GFE7018 Basic of Datascience</h2>
-          {% capture gfe7018_md %}{% include_relative _content/gfe7018.md %}{% endcapture %}
-          {{ gfe7018_md | markdownify }}
-        </div>
-
-        <div class="page" id="phy1902">
-          <h2>PHY1902 Physics 2</h2>
-          {% capture phy1902_md %}{% include_relative _content/phy1902.md %}{% endcapture %}
-          {{ phy1902_md | markdownify }}
-        </div>
-
-        <div class="page" id="inprogress">
-          <h2>In progress</h2>
-          {% capture inprogress_md %}{% include_relative _content/inprogress.md %}{% endcapture %}
-          {{ inprogress_md | markdownify }}
-        </div>
-
-        <div id="footer">
-          <div id="footer-text">
-            Page generated {{ site.time | date: '%Y-%m-%d' }}.
-          </div>
-        </div>
-      </td>
-    </tr>
-  </table>
+  <h1>Jiseong LEE</h1>
+  <p>Department of Aerospace Engineering, Inha University</p>
+  <p>Email: krijseong@inha.edu</p>
 </body>
 </html>
