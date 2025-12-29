@@ -1,14 +1,79 @@
+---
+layout: none
+---
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jiseong LEE</title>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <h1>Jiseong LEE</h1>
-  <p>Department of Aerospace Engineering, Inha University</p>
-  <p>Email: krijseong@inha.edu</p>
-  <p>Grade: 2nd</p>
+  {% capture name_md %}{% include_relative _content/name.md %}{% endcapture %}
+  {% assign name_text = name_md | markdownify | strip_html | strip_newlines %}
+
+  <table summary="Table for page layout." id="tlayout">
+    <tr valign="top">
+      <td id="layout-menu">
+        <div class="menu-category">{{ name_text }}</div>
+        <div class="menu-item"><a href="#home" class="current">Home</a></div>
+        <div class="menu-item"><a href="#about">About</a></div>
+        <div class="menu-item"><a href="#projects">Projects</a></div>
+        <div class="menu-item"><a href="#experience">Experience</a></div>
+        <div class="menu-item"><a href="#contact">Contact</a></div>
+      </td>
+      <td id="layout-content">
+        <div class="page" id="home">
+          <div id="toptitle">
+            <h1>{{ name_text }}</h1>
+          </div>
+
+          <table class="imgtable">
+            <tr>
+              <td>
+                {% capture photo_md %}{% include_relative _content/photo.md %}{% endcapture %}
+                {{ photo_md | markdownify }}
+              </td>
+              <td align="left">
+                {% capture profile_md %}{% include_relative _content/profile.md %}{% endcapture %}
+                {{ profile_md | markdownify }}
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="page" id="about">
+          <h2>About</h2>
+          {% capture about_md %}{% include_relative _content/about.md %}{% endcapture %}
+          {{ about_md | markdownify }}
+        </div>
+
+        <div class="page" id="projects">
+          <h2>Projects</h2>
+          {% capture projects_md %}{% include_relative _content/projects.md %}{% endcapture %}
+          {{ projects_md | markdownify }}
+        </div>
+
+        <div class="page" id="experience">
+          <h2>Experience</h2>
+          {% capture experience_md %}{% include_relative _content/experience.md %}{% endcapture %}
+          {{ experience_md | markdownify }}
+        </div>
+
+        <div class="page" id="contact">
+          <h2>Contact</h2>
+          {% capture contact_md %}{% include_relative _content/contact.md %}{% endcapture %}
+          {{ contact_md | markdownify }}
+        </div>
+
+        <div id="footer">
+          <div id="footer-text">
+            Page generated {{ site.time | date: '%Y-%m-%d' }}.
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
 </body>
 </html>
