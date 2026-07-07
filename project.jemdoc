@@ -1,25 +1,34 @@
 # jemdoc: menu{MENU}{project.html}
 = Project
 
-- *Projects that I've done related to Aerospace Engineering.*
+- *Projects and Activiteis that I've done related to Aerospace Engineering.*
 
 == Projects 
-- Team Lunar-X : INHA UNIV. Aerospace Element Design (2026.03-2026.06) \n
+- Individual : INHA UNIV. Future Vehicle Technology Division (2026.07) (expected) \n
+Matlab Training Education for Image Processing, CV, and Automated Driving \n
+\n
+- Individual : INHA UNIV. Future Vehicle Technology Division (2026.07) \n
+2026 Simulink Bootcamp \n
+\n
+- [asstes/img/team_LunarX.jpg Team Lunar-X]: INHA UNIV. Aerospace Element Design (2026.03-2026.06) \n
 Optimization and Experimental Validation of a Terramechanics-Based Physical AI Algorithm for Driving Control of Lunar Exploration Rover, Team Member \n
 \n
 - Team FlyHigh: INHA UNIV. Center for Teaching & Learning (2026.03-2026.06) \n
-INHA Dong-Dong(Group Study Program) for [https://jonghank.github.io/ase3093.html ASE3093: Automatic Control], Team Leader \n
+2026 INHA Dong-Dong(Group Study Program) for [https://jonghank.github.io/ase3093.html ASE3093: Automatic Control], Team Leader \n
 \n
-- [assets/img/team_flyhigh.jpg Team FlyHigh]: INHA UNIV. Aerodrone Division (2026.03) \n
+- Team FlyHigh: INHA UNIV. Aerodrone Division (2026.03) \n
 2026 [assets/pdf/drone_application_idea_challenge.pdf Drone Application Idea Challenge], Team Leader \n
 \n
-- Team LL:  INHA UNIV. Future Vehicle Technology Division (2026.01) \n
-Studying Drone System by Using Arduino, Team Leader \n
+- Individual: Inha Institute of Creative Engineering Education \n
+2025 [assets/img/DA and ML Using Python certification.jpg Data Analysis and Machine Learning Using Python] \n
+\n
+- [asstes/img/arduino people.jpg Team LL]:  INHA UNIV. Future Vehicle Technology Division (2026.01) \n
+2025 [assets/img/arduion skill up certification.jpg Studying Drone System by Using Arduino], Team Leader \n
 \n
 - [assets/img/team_visang.jpg Team Visang]: INHA UNIV. Aerodrone Division (2026.01-2026.02) \n
 2026 Multi-mission Based Drone System Competition, Team Member \n
 \n
-- Team FlyHigh: Convergence and Open Sharing System Aerodrone Division (2025.08-2025.12) \n
+- [assets/img/team_flyhigh.jpg Team FlyHigh]: Convergence and Open Sharing System Aerodrone Division (2025.08-2025.12) \n
 2025 Class 3 Unmanned Aerial Vehicle Olpympic Competition, Team Leader \n
 \n
 - Team AE: INHA UNIV. Center for Teaching & Learning (2021.03-2021.06) \n
