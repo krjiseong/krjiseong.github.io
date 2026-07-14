@@ -1,8 +1,9 @@
 Ji-Seong LEE
-	Home					[index.html]
+	Home					.[index.html]
 	Biography				[biography.html]
 
 Study
 	Papers				[paper.html]
-	Subject				[subject.html]
+#	Subject				[subject.html]
+	Investment			[investment.html]
 	Project				[project.html]
