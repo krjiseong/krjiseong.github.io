@@ -1,0 +1,43 @@
+# jemdoc: menu{MENU}{biography.html}
+= Biography
+
+= Education
+- Undergraduate student in [https://aerospace.inha.ac.kr/aerospace/index.do INHA UNIV. Aerospace Engineering] (2021-) 
+
+= Awards
+- 2026 Project Lab. [assets/pdf/Aerospace_Element_Design_Competition.pdf Aerospace Element Design Competition] \n
+Institute for Aerospace Industry-Academia Collaboration Business Leader Award \n
+- 2026 [assets/img/Multi-mission_Based_Drone_System.jpg Multi-mission Based Drone System Competition] \n
+INHA Aerodrone Business Leader Award
+- 2026 Skill Up Course - [assets/img/Drone_OP_Competition.jpg Drone Operation/Presentation Competition] \n
+INHA Future Vehicle Technology Business Leader Award
+- 2025 [assets/img/Class3.jpg Class 3 Unmanned Aerial Vehicle Olpympic Competition] \n
+COSS Aerodrone Business Leader Award
+
+= Certificates
+
+=== *License*
+- AI Prompt Operational Test Level 1
+- Class 1 Large Driver's License
+- Craftsman Fork Lift Truck Operator License 
+
+=== *Class*
+- INHA UNIV. Future Vehicle Technology Division (2026.07) \n
+[assets/pdf/MTE.pdf Matlab Training Education] for Image Processing, CV, and Automated Driving \n
+
+- INHA UNIV. Future Vehicle Technology Division (2026.07) \n
+[assets/pdf/simulink_certificate.pdf 2026 Simulink Bootcamp] \n
+
+- Individual: Inha Institute of Creative Engineering Education \n
+2025 [assets/pdf/DAML.pdf Data Analysis and Machine Learning Using Python] \n
+
+- [assets/img/team_LL.jpg Team LL]:  INHA UNIV. Future Vehicle Technology Division (2026.01) \n
+2025 [assets/img/AS_Cer.jpg Studying Drone System by Using Arduino], Team Leader \n
+\n
+
+= Experiences
+- [assets/img/Aerodrone_supporters.jpg Content Developer] of [https://inhaad.kr/ INHA UNIV. Aerodrone Buisness Division] (2026.03-2027.02)
+- Assistant Instructure of [assets/img/team_bigstar.jpg Cheer Team Bigstar] (2025.05-2025.11)
+- Motor Transport Driver (Heavy Vehicles) of 22Div. Republic of Korea Army (2023.09-2025.03)
+- [https://www.instagram.com/p/CrKyaaav0kJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== 50th Captain] of [https://www.instagram.com/inhauniv._assess?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== INHA UNIV. Cheerleading Team ASSESS] (2022.07-2023.07)
+- PR manager of INHA UNIV. Cheerleading Team ASSESS (2022.01-2023.06)
