@@ -1,6 +1,12 @@
 # jemdoc: menu{MENU}{paper.html}
 = Papers
 
-- [1] S. Han, Y. Park, J. Park, J. Nam, B. J. Lee, and H. J. Lee, “Numerical investigation of scramjet inlet models for side spillage reduction,”
-- [2] P. Wolański, “Detonative propulsion,”
-- [3] S. Jackson, B. J. Lee, and J. E. Shepherd, “Detonation mode and frequency analysis under high loss conditions for stoichiometric propane-oxygen,”
+- * Papers studying for my reseach interests. *
+
+== Read & In progress
+- S. Han, Y. Park, J. Park, J. Nam, B. J. Lee, and H. J. Lee, “Numerical investigation of scramjet inlet models for side spillage reduction,” \n
+- P. Wolański, "Detonative propulsion,” \n
+- S. Jackson, B. J. Lee, and J. E. Shepherd, “Detonation mode and frequency analysis under high loss conditions for stoichiometric propane-oxygen,” \n
+
+== Planned Reading
+- T. Yamamoto, K. Matsuoka, N. Itouyama, A. Manabe, Y. Ide, J. Kasahara, K. Fujiwara, and A. Matsuo, "Active direction control of rotating detonation waves by swirl injection,”
